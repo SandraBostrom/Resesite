@@ -55,10 +55,10 @@ body {
   padding-bottom: 20px;
   text-align: center;
 }
-.col-xl-4 {
+.col-xl-6 {
   margin-top: 10px;
 }
-.col-xl-4 img {
+.col-xl-6 img {
   padding: 0px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -66,7 +66,7 @@ body {
   height: 200px;
   object-fit: cover;
 }
-.col-xl-4:hover img {
+.col-xl-6:hover img {
   -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
