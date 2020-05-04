@@ -1,79 +1,105 @@
 <html>
 
 <head>
-  <title>Iceland</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Travelingsite about Island">
+  <meta name="keywords" content="Island, iceland, travel, visit ">
+  <meta name="author" content="Sandra Boström">  <title>Iceland</title>
+  <link rel="stylesheet" type="text/css" href="test.css" />
   <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="jquery.js"></script>
   </div>
 </head>
 
 <body>
-
-  
-  <div class="topnav">
-    <a class="active" href="#home">Start</a>
-    <a href="#contact">Kontakt</a>
-    <a href="#about">Om oss - Detta ska bli ikoner istället senare</a>
-  </div>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Start</a>
+  <a href="contact.html">Kontakt</a>
+  <a href="about.html">Om oss</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
   <div class="imageContainer">
     <div class="textInImage">
-    <div class="headerimage "></div>
-    <div class="headertext">Iceland</div>
+      <div class="headerimage "></div>
+      <div class="headertext">Iceland</div>
     </div>
   </div>
 
   <div class="start">
-  <div class="socialmediasContainer">
-    <div class=" fbPic1">
-      <img src="images/logos.jpg" id="logos" alt="instagram and facebook logo">
-      <img src="images/instagramlogo.png" alt="instagram logo">
-      <a href="https://www.instagram.com/explore/tags/iceland/">
-        <img src="images/sidepic.jpg" alt="Arctic fox">
-      </a>
-      <h4>IcelandOfficial</h3>
-        <p class="caption">Vyn från sovrumsfönstret #arcticfox #iceland </p>
-        <img src="images/facebooklogo.jpg" alt="facbook logo">
-        <a href="https://www.facebook.com/IcelandTravelTourOperator">
-          <img src="images/city.jpg" id="city" alt="Iceland city">
-        </a>
-        <h4>Iceland Travel</h4>
-        <p>And I think for myself...what a wonderful world</p>
-    </div>
-  </div>
-      <div class="menus">
-        <div class="eatContainer">
+    <div class="container">
+      <div class=row>
+        <div class="col-xl-10">
+          <div class="menus">
+            <div class="eatContainer">
 
-        <img src="images/food3.jpg" id="pic1">
-        <h3>Äta</h3>
-        <p> FIXA SÅ ATT KNAPPEN ÄR CENTRERAD!!!!    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat reprehenderit architecto laborum esse fugit consequuntur enim sequi itaque at! Ut numquam enim possimus dicta natus, quisquam ea consequuntur voluptatibus?</p>
-      <a href="eat.html"><button class="btn">Läs mer</button></a>
+              <img src="images/food3.jpg" id="pic1">
+              <h3 align="center">Äta</h3>
+              <p> FIXA SÅ ATT KNAPPEN ÄR CENTRERAD!!!! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat fugiat reprehenderit architecto laborum esse fugit consequuntur enim sequi itaque at! Ut
+                numquam enim possimus dicta natus, quisquam ea consequuntur voluptatibus?</p>
+              <a href="eat.html"><button class="btn">Läs mer</button></a>
 
-      </div>
-      <div class="todoContainer">
-      
-        <img src="images/val.jpg" id="pic1">
-        <h3>Att göra</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat reprehenderit architecto laborum esse fugit
-          consequuntur enim sequi itaque at! Ut numquam enim possimus dicta natus, quisquam ea consequuntur voluptatibus?</p>
-      <a href="todo.html"><button class="btn">Läs mer</button></a>
+            </div>
+            <div class="todoContainer">
 
+              <img src="images/val.jpg" id="pic1">
+              <h3 align="center">Att göra</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat reprehenderit architecto
+                laborum esse fugit
+                consequuntur enim sequi itaque at! Ut numquam enim possimus dicta natus, quisquam ea consequuntur
+                voluptatibus?</p>
+              <a href="todo.html"><button class="btn">Läs mer</button></a>
+
+            </div>
+            <div class="liveContainer">
+
+              <img src="images/hotel.jpg" id="pic1">
+              <h3 align="center">Boenden</h3>
+              <p> FIXA SÅ ATT KNAPPEN ÄR CENTRERAD!!!! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat fugiat
+                reprehenderit architecto laborum esse fugit consequuntur enim sequi itaque at! Ut numquam enim
+                possimus dicta natus,
+                quisquam ea consequuntur voluptatibus?</p>
+              <a href="live.html"><button class="btn">Läs mer</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-2" id="logos">
+
+          <img src="images/logos.jpg" id="logos" alt="instagram and facebook logo">
+
+          <div class="socialmediasContainer">
+            <div class=" fbPic1">
+
+              <a href="https://www.instagram.com/explore/tags/iceland/"><img src="images/instagramlogo.png"
+                  alt="instagram logo" /></a>
+              <a href="https://www.instagram.com/explore/tags/iceland/">
+                <img src="images/sidepic.jpg" alt="Arctic fox" />
+              </a>
+              <h4>IcelandOfficial</h3>
+                <p class="caption">Vyn från sovrumsfönstret #arcticfox #iceland </p>
+                <a href="https://www.facebook.com/IcelandTravelTourOperator"><img src="images/facebooklogo.jpg"
+                    alt="facbook logo" /></a>
+              </h4>
+              <a href="https://www.facebook.com/IcelandTravelTourOperator">
+                <img src="images/city.jpg" id="city" alt="Iceland city">
+              </a>
+              <h4>Iceland Travel</h4>
+              <p>And I think for myself...what a wonderful world</p>
+            </div>
+          </div>
+
+        </div>
       </div>
-      <div class="liveContainer">
-      
-        <img src="images/hotel.jpg" id="pic1">
-        <h3>Boenden</h3>
-        <p> FIXA SÅ ATT KNAPPEN ÄR CENTRERAD!!!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat fugiat
-          reprehenderit architecto laborum esse fugit consequuntur enim sequi itaque at! Ut numquam enim possimus dicta natus,
-          quisquam ea consequuntur voluptatibus?</p>
-        <a href="live.html"><button class="btn">Läs mer</button></a>
-      
-      </div>
-      </div>
-      <!-- <img src="images/bada.jpg" id="pic1">
-      <img src="images/sidepic3.jpg" id="pic2">
-      <img src="images/city.jpg" id="pic3"> -->
-  </div>
-  <footer>
-  </footer>
+      <footer>
+      </footer>
 </body>
 
 </html>
