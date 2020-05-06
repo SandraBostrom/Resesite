@@ -1,0 +1,160 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Travelingsite about Island" />
+  <meta name="keywords" content="Island, iceland, travel, visit " />
+  <meta name="author" content="Sandra Boström" />
+  
+  <title>Boende</title>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="styles/live.css" />
+
+  <script src="js/jquery.js"></script>
+</head>
+
+<body>
+  <div class="topnav">
+    <a class="active" href="index.html">Start</a>
+    <a href="contact.html">Kontakt</a>
+    <a href="#about">Om oss</a>
+  </div>
+
+  <div class="imageContainer">
+    <div class="textInImage">
+      <div class="headerimage"></div>
+      <div class="headertext">Boende</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid">
+      <div class="row">
+        <div class="col-xl-6">
+          <figure class="hotelmenu">
+            <img src="images/hotel.jpg" alt="img17" />
+            <figcaption>
+              <h2>Lyxhotellet</h2>
+              <p>
+                <button class="bookingButton" onclick="openFormLyxhotel()"></button>
+                <div class="form-popup" id="myFormLyxhotel">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Grand Hotel</h1>
+                    <img src="images/cityhotel.jpg" />
+                    <h6>Detta eleganta hotell ligger 2 km från Reykjaviks centrum och stadens största utomhuspool, Laugardalslaug. Hotellet
+                    erbjuder spa, bar och restaurang, samt gratis tillgång till ett gym. Här finns gratis WiFi och gratis parkering. Som
+                    gäst på hotellet kan du också ta en gratis pendelbuss till centrum under dagen.
+                    
+                    Grand Hotel Reykjaviks rymliga rum har platt-tv, te- och kaffefaciliteter, samt ett litet kylskåp. Många av rummen har
+                    utsikt över havet, bergen eller staden.</h6>
+                    <h4>Kontaktinfo</h4>
+                    <h5>070-00000</h5>
+
+                    <button type="button" class="btn cancel" onclick="closeFormLyxhotel()">Stäng</button>
+                  </form>
+                </div>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-xl-6">
+          <figure class="hotelmenu">
+            <img src="images/hotel3.jpg" alt="img25" />
+            <figcaption>
+              <h2>Citylife</h2>
+              <p>
+                <button class="bookingButton" onclick="openFormCityhotel()"></button>
+                <div class="form-popup" id="myFormCityhotel">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Midgardur Hotel</h1>
+                    <img src="images/cityhotel.jpg" />
+                    <h6>Midgardur by Center Hotels ligger på Reykjaviks största shoppinggata Laugavegur, 800 meter från Hallgrímskirkja. Här
+                    finns en bar, en restaurang och gratis WiFi.
+                    
+                    De ljusa rummen på Midgardur by Center Hotels har platt-TV, minibar och eget badrum med hårtork och gratis badprodukter.
+                    Vissa rum har även utsikt över havet, bergen eller staden.</h6>
+                    <h4>Kontaktinfo</h4>
+                    <h5>070-00000</h5>
+
+                    <button type="button" class="btn cancel" onclick="closeFormCityhotel()">Stäng</button>
+                  </form>
+                </div>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col">
+          <figure class="hotelmenu">
+            <img src="images/hotel4.jpg" alt="img25" />
+            <figcaption>
+              <h2>Specialen</h2>
+              <p>
+                <button class="bookingButton" onclick="openFormSpecialhotel()"></button>
+                <div class="form-popup" id="myFormSpecialhotel">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Buuble Hotel</h1>
+                    <img src="images/specialhotel.jpg" />
+                    <h6>En surrealistisk campingupplevelse under stjärnorna. Ta del av såväl naturen som modern
+                      bekvämlighet</h6>
+                    <h4>Kontaktinfo</h4>
+                    <h5>070-00000</h5>
+
+                    <button type="button" class="btn cancel" onclick="closeFormSpecialhotel()">Stäng</button>
+                  </form>
+                </div>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col">
+          <figure class="hotelmenu">
+            <img src="images/city.jpg" alt="img25" />
+            <figcaption>
+              <h2>Mysiga hotell</h2>
+              <p>
+                <button class="bookingButton" onclick="openFormMyshotel()"></button>
+                <div class="form-popup" id="myFormMyshotel">
+                  <form action="/action_page.php" class="form-container">
+                    <h1>Eyja Hotel</h1>
+                    <img src="images/myshotel.jpg" />
+                    <h6>Detta hotell ligger bredvid Hlemmur Square i närheten av Reykjavíks stora shoppinggata
+                      Laugavegur och erbjuder utsikt
+                      över staden och berget Esja.
+
+                      Alla rum på Eyja Guldsmeden Hotel är inredda i balinesisk stil och har stolpsängar, platt-TV och
+                      ett badrum med
+                      Guldsmedens egna ekologiska badprodukter. Vissa av rummen har även utsikt över havet, bergen eller
+                      staden.</h6>
+                    <h4>Kontaktinfo</h4>
+                    <h5>070-00000</h5>
+
+                    <button type="button" class="btn cancel" onclick="closeFormMyshotel()">Stäng</button>
+                  </form>
+                </div>
+              </p>
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Made by Sandra</p>
+
+  </footer>
+</body>
+
+</html>
