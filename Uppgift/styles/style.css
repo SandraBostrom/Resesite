@@ -103,12 +103,14 @@ body {
   float: right;
   width: 50%;
 }
-.menus h3 {
-  display: flex;
-  justify-content: center;
-}
 .menus {
   margin-top: 50px;
+}
+.menus h3{
+  display:flex;
+  justify-content: center;
+  float: center;
+  word-wrap: break-word;
 }
 .btn {
   background-color: grey;
@@ -122,15 +124,18 @@ body {
   margin-top: 20px;
   font-size: 16px;
   opacity: 0.6;
-  transition: 0.3s;
-}
+  transition: 0.3s;}
 
-.btn:hover {
-  opacity: 1;
-}
+.btn:hover {opacity: 1}
 
 .eatContainer {
-  border-top: 1px solid grey;
+    border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin: 0 1em 1em 1em;
+  display: block;
+  padding: 2px;
   box-shadow: 5px 5px 5px #aaaaaa;
   color: black;
 }
@@ -147,7 +152,14 @@ body {
   word-wrap: break-word;
 }
 .todoContainer {
-  border-top: 1px solid grey;
+    border-top: 1px solid grey;
+
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin: 0 1em 1em 1em;
+  display: block;
+  padding: 2px;
   box-shadow: 5px 5px 5px #aaaaaa;
   color: black;
 }
@@ -164,7 +176,13 @@ body {
   word-wrap: break-word;
 }
 .liveContainer {
-  border-top: 1px solid grey;
+    border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  float: left;
+  margin: 0 1em 1em 1em;
+  display: block;
+  padding: 2px;
   box-shadow: 5px 5px 5px #aaaaaa;
   color: black;
 }
